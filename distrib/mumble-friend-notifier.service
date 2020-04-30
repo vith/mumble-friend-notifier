@@ -1,0 +1,9 @@
+[Unit]
+Description=Mumble Friend Notifier
+
+[Service]
+WorkingDirectory=%h/code/mumble-friend-notifier
+ExecStart=node .
+
+[Install]
+WantedBy=default.target

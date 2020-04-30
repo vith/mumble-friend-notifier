@@ -1,0 +1,33 @@
+{
+  "name": "mumble-friend-notifier",
+  "version": "1.0.0",
+  "description": "Sends an android push notification when your friends connect to a mumble server",
+  "main": "src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vith/mumble-friend-notifier.git"
+  },
+  "keywords": [
+    "mumble",
+    "push-notification"
+  ],
+  "author": "Jason Papakostas <vithos@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vith/mumble-friend-notifier/issues"
+  },
+  "homepage": "https://github.com/vith/mumble-friend-notifier#readme",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "pegjs": "^0.10.0",
+    "tailfd": "^0.1.6"
+  },
+  "resolutions": {
+    "watchfd": "git+https://github.com/soldair/node-watchfd.git"
+  }
+}
